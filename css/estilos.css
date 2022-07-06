@@ -1,0 +1,89 @@
+body
+{
+    color:#333;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Arial';
+}
+
+#contenedor
+{
+    width: 70%;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+}
+
+#contenedor #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+#cuadroPrecios
+{
+    width: 70%;
+    padding: 1em;
+    text-align: center;
+    color: #333;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+}
+
+#contenedorMenu
+{
+    background: #33a;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+.menu ul
+{
+    display: inline-flex;
+    padding: 0.1em;
+    margin: 1;
+    list-style: none;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 0.5em;
+}
+
+.menu a
+{
+    display: block;
+    padding: 0.5em;
+    background-color: #5284f0;
+    text-decoration: none;
+    color: #191d2b;
+    border-radius: 1em;
+    font-size: 20px;
+}
+
+.menu a:hover
+{
+    background-color: #CC673B;
+}
+
+.menu ul li ul
+{
+    display: none;
+}
+
+.menu ul li a:hover + ul, .menu ul li ul:hover
+{
+    display: block;
+}
+
+#imagenPulpas
+{
+    background-image: url(imagenes/images.png);
+    background-size: 150px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    color: pink;
+}
